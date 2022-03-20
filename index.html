@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <title>Check Point 01 - Front-End 2</title>
+        <!-- Place favicon.ico in the root directory -->
+        <!-- Aluno: Carlos Alberto Filho -->
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please
+            <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+            your experience.
+            </p>
+        <![endif]-->
+        <header>
+            <h1>Animes da Temporada</h1>
+            <button id="addPost">Adiconar Post</button>
+        </header>
+        <main>
+            <div class="posts"></div>
+            <div id="formAddNewPost" class="hidden">
+                <section>
+                    <h1>Adicionar um novo Post</h1>
+                    <form method="" id="" action="">
+                        <fieldset>
+                            <legend>Crie uma nova postagem para os usuários</legend>
+                            <label for="titlePost">Título</label>
+                            <input type="text" id="titlePost" name="titlePost" placeholder="Entre o título da Postagem" />
+                            <label for="urlPost">URL da Imagem</label>
+                            <input type="url" id="urlPost" name="urlPost" placeholder="Entre a URL do cartaz do anime" />
+                            <label for="dateFirstRun">Data de Estreia</label>
+                            <input type="date" id="dateFirstRun" name="dateFirstRun" />
+                            <label for="descriptionPost">Sinopse do Anime</label>
+                            <textarea name="descriptionPost" id="descriptionPost" cols="10" ></textarea>
+                        </fieldset>
+                        <button id="sendPost" type="submit">Enviar</button>
+                        <button id="resetPost" type="reset">Limpar Formulário</button>
+                        <button id="postCancel">Cancela Post</button>
+
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-esquerda">
+                <p>1º Check Point - Front End II</p>
+                <p>Digital House &copy 2022</p>
+            </div>
+            <div class="footer-direita">
+                <div class="footer-sobre">
+                    <img src="assets/eu.png" alt="Carlos Alberto" />
+                    <div class="sobre-conteudo">
+                        <p>Carlos Alberto S. S. Filho</p>
+                        <p>Aprendiz de Desenvolvedor Full Stack</p>
+                        <p>Cursando Ciência da Computação - Estácio</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./main.js"></script>
+    </body>
+</html>
