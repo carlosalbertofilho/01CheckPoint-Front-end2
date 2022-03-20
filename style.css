@@ -101,7 +101,6 @@ main {
   color: rgb(230, 230, 230);
 }
 
-
 .addNewPost {
     display: flex;
     flex-wrap: wrap;
@@ -172,50 +171,35 @@ button[type=reset]:hover, #postCancel:hover {
 footer {
     background-color: black;
     grid-area: footer;
-    position: sticky;
-    bottom: 0;
-    height: 15vh;
-}
-
-.footer-esquerda {
-    text-align: left;
-    padding: 25px 40px 5px 40px;
-    display: inline-block;
-}
-
-.footer-esquerda p {
-    color: #8f9296;
-    font-size: 16px;
-    margin: 0;
-    padding: 5px;
-}
-
-.footer-direita {
-    float: right;
-    margin-top: 6px;
-    max-width: 50%;
-}
-
-.footer-sobre {
     display: flex;
-    font-size: 12px;
-    color: #8f9296;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.footer-sobre p {
-    padding: 5px;
+.footer-right p {
+    margin: 1em;
+    padding: 1em 1em 0;
 }
 
-.footer-sobre img {
-    width: 70px;
-    height: 70px;
-    padding: 10px;
+.footer-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-left img {
     margin: 5px;
+    padding-left: 3px;
     grid-column: 1;
-    border-right: 2px;
+    border-right: 3px;
     border-right-color: white;
     border-right-style: solid;
 }
-.sobre-conteudo {
-    padding-top: 5px;
+.footer-left p {
+  margin-top: 5px;
+  padding: 0.5em;
+  padding-right: 7px;
+  font-size: 12px;
+}
+.footer-left div {
+  margin-top: 10px;
 }

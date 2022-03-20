@@ -63,6 +63,7 @@ window.onload = function() {
     containerReference.className="posts";
     formNewPostReference.className="hidden";
     console.log(posts);
+    containerReference.innerHTML = "";
     renderPosts(posts);
   });
 };
