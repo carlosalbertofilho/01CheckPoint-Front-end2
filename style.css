@@ -190,14 +190,8 @@ footer {
     text-align: center;
 }
 .footer-left img {
-    max-height: 120px;
-    max-width: 120px;
     margin: 5px;
     padding-left: 3px;
-    grid-column: 1;
-    border-right: 3px;
-    border-right-color: white;
-    border-right-style: solid;
 }
 .footer-left p {
   margin-top: 5px;
