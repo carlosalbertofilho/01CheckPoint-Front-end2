@@ -170,6 +170,7 @@ button[type=reset]:hover, #postCancel:hover {
 
 footer {
     background-color: black;
+    color: #cec9c9;
     grid-area: footer;
     display: flex;
     flex-wrap: wrap;
@@ -184,9 +185,13 @@ footer {
 .footer-left {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
+    text-align: center;
 }
 .footer-left img {
+    max-height: 120px;
+    max-width: 120px;
     margin: 5px;
     padding-left: 3px;
     grid-column: 1;
